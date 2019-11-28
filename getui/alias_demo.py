@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 
-from igt_push import *
-from igetui.template import *
-from igetui.template.igt_base_template import *
-from igetui.template.igt_transmission_template import *
-from igetui.template.igt_link_template import *
-from igetui.template.igt_notification_template import *
-from igetui.template.igt_notypopload_template import *
-from igetui.template.igt_apn_template import *
-from igetui.igt_message import *
-from igetui.igt_target import *
-from igetui.template import *
+from .igt_push import *
+from .igetui.template import *
+from .igetui.template.igt_base_template import *
+from .igetui.template.igt_transmission_template import *
+from .igetui.template.igt_link_template import *
+from .igetui.template.igt_notification_template import *
+from .igetui.template.igt_notypopload_template import *
+from .igetui.template.igt_apn_template import *
+from .igetui.igt_message import *
+from .igetui.igt_target import *
+from .igetui.template import *
 import os
 
 #toList接口每个用户返回用户状态开关,true：打开 false：关闭

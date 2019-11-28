@@ -2,10 +2,10 @@
 
 import time
 
-from igetui.template.notify.igt_smsmessage import SmsMessage
-from protobuf import *
-from payload.APNPayload import APNPayload, DictionaryAlertMsg
-from protobuf.gt_req_pb2 import SmsInfo
+from .notify.igt_smsmessage import SmsMessage
+from ...protobuf import *
+from ...payload.APNPayload import APNPayload, DictionaryAlertMsg
+from ...protobuf.gt_req_pb2 import SmsInfo
 
 
 class BaseTemplate:

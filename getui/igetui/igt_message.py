@@ -1,7 +1,7 @@
 __author__ = 'wei'
 
-from igetui.template.igt_base_template import *
-from igetui.utils.AppConditions import *
+from .template.igt_base_template import *
+from .utils.AppConditions import *
 class IGtMessage:
     def __init__(self):
         self.isOffline = False

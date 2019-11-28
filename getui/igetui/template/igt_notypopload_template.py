@@ -2,9 +2,9 @@ from protobuf.gt_req_pb2 import InnerFiled
 
 __author__ = 'Kevin'
 
-from protobuf import *
+from ...protobuf import *
 from .import igt_base_template
-from igetui.template.style.AbstractNotifyStyle import *
+from .style.AbstractNotifyStyle import *
 
 class NotyPopLoadTemplate(igt_base_template.BaseTemplate):
     def __init__(self):

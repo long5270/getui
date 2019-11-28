@@ -17,5 +17,7 @@ setup(
     packages = find_packages(exclude=['*.test', '*.test.*', 'test.*', 'test', 'test.py']),
     include_package_data = True,
     platforms = "any",
-    install_requires = []
+    install_requires = [
+        'protobuf'
+    ]
 )

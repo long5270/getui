@@ -4,8 +4,8 @@ import uuid
 import base64
 import json
 import os
-from protobuf import *
-from GtConfig import GtConfig
+from .protobuf import *
+from .GtConfig import GtConfig
 
 
 class BatchImpl:

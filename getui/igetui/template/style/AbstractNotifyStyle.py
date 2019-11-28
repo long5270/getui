@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from protobuf import *
-from igetui.template.style.INotifyStyle import *
+from ....protobuf import *
+from .INotifyStyle import *
 class AbstractNotifyStyle(INotifyStyle):
     def __init__(self):
         self.isRing = True

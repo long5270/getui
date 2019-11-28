@@ -1,13 +1,13 @@
 ﻿# -*- coding: utf-8 -*-
 from array import array
 
-from igetui.template.igt_startactivity_template import StartActivityTemplate
-from igetui.template.notify.igt_notify import Notify
-from protobuf.gt_req_pb2 import NotifyInfo
-from payload.VoIPPayload import *
-from igetui.template.style.Style1 import *
-from igetui.template.style.Style4 import *
-from igetui.template.style.Style6 import *
+from .igetui.template.igt_startactivity_template import StartActivityTemplate
+from .igetui.template.notify.igt_notify import Notify
+from .protobuf.gt_req_pb2 import NotifyInfo
+from .payload.VoIPPayload import *
+from .igetui.template.style.Style1 import *
+from .igetui.template.style.Style4 import *
+from .igetui.template.style.Style6 import *
 
 
 __author__ = 'wei'

@@ -1,9 +1,9 @@
-from protobuf import *
+from ...protobuf import *
 from .import igt_base_template
 import re
-from GtConfig import *
-from protobuf.gt_req_pb2 import InnerFiled
-from igetui.template.style.AbstractNotifyStyle import *
+from ...GtConfig import *
+from ...protobuf.gt_req_pb2 import InnerFiled
+from .style.AbstractNotifyStyle import *
 
 
 class StartActivityTemplate(igt_base_template.BaseTemplate):

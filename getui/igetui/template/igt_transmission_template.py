@@ -1,10 +1,10 @@
-from GtConfig import GtConfig
+from ...GtConfig import GtConfig
 import re
 __author__ = 'wei'
 
-from protobuf import *
+from ...protobuf import *
 from . import igt_base_template
-from igetui.template.style.AbstractNotifyStyle import *
+from .style.AbstractNotifyStyle import *
 
 
 def setPayloadInfo(notifyInfo, notify):
