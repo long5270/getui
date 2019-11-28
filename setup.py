@@ -7,7 +7,7 @@ setup(
     version = "4.1.0.0",
     keywords = ("getui", "个推"),
     description = "Ge tui push python api",
-    long_description = open(os.path.join(ROOT, 'README.md'), encoding='utf-8').read(),
+    #long_description = open(os.path.join(ROOT, 'README.md'), encoding='utf-8').read(),
     license = "MIT Licence",
 
     url = "https://github.com/uimeet/getui",
