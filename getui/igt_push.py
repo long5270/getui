@@ -10,10 +10,10 @@ import threading
 
 import requests
 
-from BatchImpl import *
-from RequestException import RequestException
-from igetui.igt_message import *
-from igetui.utils.igt_lang_utils import LangUtils
+from .BatchImpl import *
+from .RequestException import RequestException
+from .igetui.igt_message import *
+from .igetui.utils.igt_lang_utils import LangUtils
 
 globals = {
     'false': "false",
