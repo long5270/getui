@@ -7,6 +7,7 @@ import gzip
 import hashlib
 # import urllib2
 import threading
+import random
 
 import requests
 
@@ -32,6 +33,8 @@ class IGeTui:
         if host is not None:
             host = host.strip()
 
+        self.host = None
+
         if ssl is None and host is not None and host != '' and host.lower().startswith('https:'):
             ssl = True
 
@@ -42,6 +45,8 @@ class IGeTui:
             self.hosts = list()
             self.hosts.append(host)
         self.initOSDomain()
+        if self.host is None and IGeTui.serviceMap:
+            self.host = random.sample(IGeTui.serviceMap[self.appKey], 1)[0]
 
     def initOSDomain(self):
 
