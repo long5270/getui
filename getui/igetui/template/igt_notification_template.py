@@ -1,4 +1,4 @@
-from protobuf.gt_req_pb2 import InnerFiled
+from ...protobuf.gt_req_pb2 import InnerFiled
 
 __author__ = 'wei'
 
